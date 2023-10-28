@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iphone{
+    color: #F2F2F2;
+    width: 1125px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 50px 0px 51px;
+    background: rgba(0, 0, 0, 0.80);
+   
+    padding: 0px 50px 0px 51px;
+    height: 40px;
+}
+.nav-bar>a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.down-bar{
+    display: flex;
+    padding: 20px;
+    /* padding: 3px 0px 49px 171.672px; */
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFD;
+    gap: 60px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 113px 72px 0px 73px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.hero-text>h2{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+}
+.hero-text>img{
+    width: 90px;
+height: 21px;
+
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
+.Big{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+padding: 10px;
+line-height: 52.008px; /* 108.349% */
+/* color: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%); */
+color: #2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43;
+}
+.para{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.butt{
+    display: flex;
+    width: 470.781px;
+    padding: 30px 132.438px;
+    justify-content: center;
+    align-items: center;
+    gap: 28px; 
+      
+}
+.butt>button{
+    width: 55px;
+height: 30px;
+padding: 8px 10px 8px 13px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 30px;
+    background: #0071E3;  
+    border: none; 
+}
+.butt>a{
+    text-decoration: none;
+    color: #06C;
+    font-size: 20px;
+}
+.hero-img>img{
+    width: 500px;
+   height: 400px;
+   padding-top: 5px;
+}
+.hero2{
+    display: flex;
+    padding: 133px 72px 0px 73px;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #000000;
+}
+.hero2up{
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero2up>h2{
+    color: #6E6E73;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 147.059% */
+    letter-spacing: -0.374px;    
+}
+.hero2down>img{
+    width: 300px;
+    height: 300px;
+}
+.Big2{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+padding: 10px;
+line-height: 52.008px; /* 108.349% */
+background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.love{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     background: #FBFBFD;
+     padding: 10px;
+}
+.loveleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loveleft>img{
+    width: 90px;
+height: 20px;
+padding: 5px;
+
+}
+.love-para1{
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px; /* 108.349% */
+    letter-spacing: -0.144px;    
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.love-para2{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;    
+    padding: 15px;
+}
+.loveright>img{
+    width: 400px;
+    height: 800px;
+}
+.tour{
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    background-image: url(assets/figure\ \(26\).png);
+    width: 100%;
+}
+.tour>div{
+height: 814px;
+display: flex;
+width: 287.969px;
+flex-direction: column;
+justify-content: center;
+gap: 7px;
+padding-left: 40px;
+}
+.tour-para1{
+    color: #FFF;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;  
+}
+.tour-para2{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+}
+.tour>div>button{
+    border-radius: 900px;
+    padding: 20px;
+    width: 142.234px;
+    height: 36px;
+    padding: 8px 15.6px 8px 16px;
+}
+.main-hero-gm{
+    display: flex;
+width: 1125px;
+padding: 100px 90px 105px 200px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main>h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+.main-imp{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.colomn-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 35px;
+}
+.colomn-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 35px;
+}
+.colomn-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 35px;
+}
+.colomn-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 35px;
+}
+.gap{
+    padding:40px 0px 40px 30px;
+}
+
+.gm-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap:50px;
+    
+}
+.gm-foot>a{
+    text-decoration: none;
+}
+.Compare-all-iPhone-models{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+
+}
+.Shop-iPhone{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+}
+
+.horizontal-border {
+    border: 1px solid grey;
+    width: 80%;
+    background-color: black;
+}
+.new{
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 400;
+    color: #BF4800;
+    line-height: 16px;
+}
+.The-altimate-iphone{
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37400001287460327px;
+    text-align: center;
+}
+.price{
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.about-mobile>button{
+    border-radius: 900px;
+    background: #0071E3;
+    color: white;
+    width: 45px;
+height: 24px;
+border: none;
+}
+.learn{
+    font-size: 15px;
+    font-weight: 300px;
+    color: blue;
+    padding: 10px;
+}
+.mobilz-size{
+    color: #1D1D1F;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+.super{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.always{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding:14px;  
+}
+.promotion{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding:14px;      
+}
+.ndgap{
+    padding:13.5px;
+}
+.cartoon>img{
+    width: 350px;
+}
+.apple{
+    display: flex;
+    flex-direction: column;
+}
+.apple>img{
+    width: 60px;
+}
+.apple-cartoon{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 17px 50.078px ;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100.063px;
+    flex-shrink: 0;
+    background-color: #01012A;
+}
+.give{
+    color: #FFF;
+text-align: center;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.009px; /* 111.121% */
+letter-spacing: -0.27px;
+}
+.shop{
+    color: #2997FF;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px; /* 138.1% */
+    letter-spacing: 0.231px;   
+}
+.ways{
+    text-align: center;
+    padding: 40px;
+}
+.upcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+}
+.upcard-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.att{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+}
+.upcard-p-1{
+    color: #1D1D1F;
+font-family: SF Pro Display;
+font-size: 43.2px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px;
+letter-spacing: -0.144px;
+}
+.upcard-p-2{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: 0.216px;
+}
+.attp{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+.att2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.att2>button{
+    border-radius: 980px;
+    background: #0071E3;
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px 18px 20px;
+    color: white;
+}
+.att2>p{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+padding: 20px;
+}
+.leftcard{
+    display: flex;
+    flex-direction: column;
+
+}
+.leftcard>img{
+    width: 300px;
+    height:200px;
+}
+.twocards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
